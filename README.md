@@ -1,3 +1,70 @@
+# Sample JSON Data:
+
+[{
+    "id": "bitcoin",
+    "symbol": "btc",
+    "name": "Bitcoin",
+    "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+    "current_price": 46644,
+    "market_cap": 870626958859,
+    "market_cap_rank": 1,
+    "fully_diluted_valuation": 981656096507,
+    "total_volume": 70735879374,
+    "high_24h": 47601,
+    "low_24h": 45120,
+    "price_change_24h": -957.21494008,
+    "price_change_percentage_24h": -2.0109,
+    "market_cap_change_24h": -19891689009.15796,
+    "market_cap_change_percentage_24h": -2.23372,
+    "circulating_supply": 18624818.0,
+    "total_supply": 21000000.0,
+    "max_supply": 21000000.0,
+    "ath": 48025,
+    "ath_change_percentage": -2.78027,
+    "ath_date": "2021-02-09T07:02:15.097Z",
+    "atl": 67.81,
+    "atl_change_percentage": 68755.0941,
+    "atl_date": "2013-07-06T00:00:00.000Z",
+    "roi": null,
+    "last_updated": "2021-02-10T08:10:25.438Z"
+}, {
+    "id": "ethereum",
+    "symbol": "eth",
+    "name": "Ethereum",
+    "image": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
+    "current_price": 1821.92,
+    "market_cap": 207978301904,
+    "market_cap_rank": 2,
+    "fully_diluted_valuation": null,
+    "total_volume": 42687479890,
+    "high_24h": 1819.95,
+    "low_24h": 1715.71,
+    "price_change_24h": 52.01,
+    "price_change_percentage_24h": 2.93843,
+    "market_cap_change_24h": 6766075116,
+    "market_cap_change_percentage_24h": 3.36266,
+    "circulating_supply": 114610637.874,
+    "total_supply": null,
+    "max_supply": null,
+    "ath": 1819.95,
+    "ath_change_percentage": -0.60409,
+    "ath_date": "2021-02-10T02:53:11.267Z",
+    "atl": 0.432979,
+    "atl_change_percentage": 417694.39585,
+    "atl_date": "2015-10-20T00:00:00.000Z",
+    "roi": {
+        "times": 51.162968927386665,
+        "currency": "btc",
+        "percentage": 5116.296892738666
+    },
+    "last_updated": "2021-02-10T08:10:29.183Z"
+}]
+
+# Package to install
+# Axios
+
+npm install axios --save
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
